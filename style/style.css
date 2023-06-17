@@ -1,0 +1,139 @@
+.Tieude{
+	position: fixed;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 1440px;
+	padding-top: 28px;
+}
+.Tieude > img{
+	width: 120px;
+	height: 40px;
+	margin: 0px 0px 0px 80px;
+}
+.chu{
+	display: flex;
+	flex-grow: 1;
+	align-self: stretch;
+	flex-shrink: 0;
+	justify-content: flex-end;
+	padding-right: 80px;
+	align-items: center;
+	gap: 32px;
+	color: #FFFFFF;
+}
+.chu > span{
+	font-family: 'Open Sans light';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 25px;
+	text-align: right;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+.baner{
+	display: flex;
+	align-items: center;
+	gap: 155px;
+	background: url('../asset/6.png');
+	width: 1440px;
+	height: 561px;
+	padding: 0px 0px 175px 0px;
+}
+.baner > span{
+
+	font-family: 'M PLUS 1';
+	font-style: normal;
+	font-size: 55px;
+	line-height: 82px;
+	text-align: center;
+	letter-spacing: 1.5px; 
+	text-shadow: 0px 2px 10px rgba(38, 55, 77, 0.5);
+	color: #FFFFFF;
+}	
+.tieudung > h2{
+	width: 1440px;
+	font-family: 'Open Sans light';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 46px;
+	text-align: center;
+	color: #254F87;
+}
+.tieudung{
+ 	width: 78vw;
+	height: 561px;
+	left: 0px;
+	top: 735px;
+
+}
+.tieudunghanghoa{
+	display: flex;
+	flex-direction: row;
+	padding: 0px 0px 0px 98px;
+	gap:16px;
+
+}
+.tieudunghanghoa > div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 32px;
+	gap: 16px;
+	width: 547px;
+	height: 328px;
+	background: #FFFFFF;
+	box-shadow: 0px 10px 20px rgba(47, 88, 153, 0.12);
+	flex: none;
+	order: 0;
+	flex-grow: 1;
+} 
+.tieudunghanghoa> div >div{
+	display: flex;
+	flex-shrink: 0;
+	flex-grow: 1;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 32px;
+	gap: 10px;
+	box-shadow: 0px 10px 20px rgba(47, 88, 153, 0.12);
+	flex-basis:  100%;
+}
+.tieudunghanghoa > div > span{
+	font-family: 'Open Sans light';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	color: #566982;
+	text-align: center;
+	padding: 0px 35px 0px 35px;
+}
+.tieudunghanghoa> div >div > span{
+	font-family: 'Open Sans light';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	color: #566982;
+	text-align: center;
+}
+.tieudunghanghoa > div >hr{
+	margin: -25px 0px 25px 0px;
+	width: 80px;
+	height: 0px;
+	border: 6px solid #F4CE5E; 
+}
+.tieudunghanghoa > div > h2{
+	font-family: 'Open Sans light';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 46px;
+	color: #254F87;
+}
